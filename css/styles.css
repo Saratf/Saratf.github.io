@@ -12,6 +12,7 @@ nav ul li a{
     display: block;
     padding: .5rem 1rem;
     background-color: aqua;
+    list-style-type: none;
 }
 main h1{
     clear: both;
