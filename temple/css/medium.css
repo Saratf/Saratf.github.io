@@ -1,0 +1,11 @@
+@media only screen and (min-width: 560px){
+figure{
+    width: 50%;
+    float: right;
+}
+.baptism{
+    clear: both;
+    column-count: 2;
+}
+}
+/* end of media query*/
