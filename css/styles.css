@@ -1,5 +1,13 @@
+body{
+    background-color:#AAB8BB;
+    font-family: sans-serif;
+    padding: 5% 15% 5% 15%;
+}
+h1, h2, p{
+    color: #F0BC68;
+}
 header h1{
-    color: blueviolet;
+    color: #F5D1C3;
 }
 nav ul{
     padding: 0;
@@ -11,17 +19,36 @@ nav ul li{
 nav ul li a{
     display: block;
     padding: .5rem 1rem;
-    background-color: aqua;
+    background-color:#5F9595;
     list-style-type: none;
+}
+a:link{
+    color: #F5D1C3;
+}
+a:visited{
+    color: #F5D1C3;
+}
+a:hover{
+    color: #F0BC68;
+}
+a:active{
+    color: #C4D7D1;
 }
 main h1{
     clear: both;
 }
 main img{
-    float: right;
+    float: right; 
 }
 
 footer{
     text-align: center;
     clear: both;
+    color: #F5D1C3;
 }
+/*l
+:link
+:visited
+:hover
+:active
+*/
