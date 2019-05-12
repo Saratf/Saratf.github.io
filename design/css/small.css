@@ -12,6 +12,7 @@ body {
 }
 
 
+
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
@@ -54,6 +55,11 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
+figure img{
+    max-width:100%;
+    float:right;
+    margin-bottom: 15px;
+}
 
 
 /*----------- FOOTER --------------*/
@@ -61,6 +67,7 @@ footer {
     background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
+    clear: both;
 }
 
 
