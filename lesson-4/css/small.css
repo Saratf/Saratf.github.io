@@ -36,8 +36,10 @@ header h2 {
           }
 
 /*----------- NAVIGATION --------------*/
+
 nav {
     background-color: #724200;
+    clear: both;
     
 }
 nav ul {
@@ -63,7 +65,7 @@ nav ul li a:hover {
 nav ul li.active a {
     background-color: #000;
     color: #B6EABF;
-}
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
