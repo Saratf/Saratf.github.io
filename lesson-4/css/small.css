@@ -8,18 +8,30 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body{
     background-color: #E5B990;
+    font-family: 'Quicksand', sans-serif;
     margin:auto;
-    width: 90%;
     }
 /*----------- HEADER --------------*/
-
-
+div.title{
+    float:right;
+    margin-right: 20%;
+}
 /*----------- NAVIGATION --------------*/
-
-
-
+nav{
+    background-color: #724200;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    text-decoration: none;
+    padding-left: 5%; 
+}
 /*----------- MAIN --------------*/
-
+main{
+    width: 90%;
+}
 
 
 /*----------- FOOTER --------------*/
