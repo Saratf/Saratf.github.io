@@ -40,12 +40,16 @@ nav ul li.active a {
 /*----------- MAIN --------------*/
 main{
    margin: auto;
-   padding: 5%;
+   margin: 5%;
 }
 main figure{
     padding: 0;
     margin: 0;
-    max-width: 90%;
+}
+main img{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
 figcaption a{
     font-size: .8rem;
