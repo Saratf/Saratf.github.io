@@ -10,6 +10,7 @@ body {
     font-size: 12px;
     font-family: 'Quicksand', sans-serif;
     background-color: #E5B990;
+    margin-left: 10px;
 }
 
 
@@ -20,16 +21,16 @@ header {
 
 }
 header img {float: left;
-            margin-left: 10px;
-            width: 25%;
+            
+            width: 100%;
            }
 header h1 {
-           margin-left: 35%;
+           
            font-size: 1.3rem;
            font-family: 'Cabin', sans-serif;
           }
 header h2 {
-           margin-left: 35%; 
+            
            font-weight: normal; 
            font-size: 1rem;
            font-family: 'Cabin', sans-serif;
@@ -73,8 +74,7 @@ main {
 }
 
 figure img{
-    max-width:100%;
-    float:right;
+    max-width:90%;
     margin-bottom: 15px;
 }
 figcaption{
