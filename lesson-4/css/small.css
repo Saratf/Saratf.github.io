@@ -13,7 +13,8 @@ body{
 /*----------- HEADER --------------*/
 div.title{
     float:right;
-    margin-right: 10%;
+    margin: 5 10 10 10;
+    font-family: 'Cabin', sans-serif;
 }
 /*----------- NAVIGATION --------------*/
 nav{
@@ -31,9 +32,12 @@ nav ul li a{
     padding: 5%;
     color: #E5B990;
 }
+nav ul li.active a {
+    background-color: #748AD3;
+}
 /*----------- MAIN --------------*/
 main{
-    max-width: 90%;
+   
     margin: auto;
 }
 figure img{
@@ -41,14 +45,18 @@ figure img{
     margin: 0;
     padding: 0;
 }
-figcaption{
-    width: 100%;
-    margin: 0;
-    padding: 0;
+main figcaption{
+    font: 2px;
 }
 /*----------- FOOTER --------------*/
 footer{
     background-color: #724200;
+}
+footer section{
+    padding: 10%;
+}
+footer p{
+    padding: 10%;
 }
 
 
