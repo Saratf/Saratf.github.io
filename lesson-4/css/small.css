@@ -28,17 +28,28 @@ nav ul{
 nav ul li a{
     display: block;
     text-decoration: none;
-    padding-left: 5%;
+    padding: 5%;
     color: #E5B990;
 }
 /*----------- MAIN --------------*/
 main{
-    width: 90%;
+    max-width: 90%;
+    margin: auto;
 }
-
-
+figure img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+figcaption{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 /*----------- FOOTER --------------*/
-
+footer{
+    background-color: #724200;
+}
 
 
 
