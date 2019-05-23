@@ -11,15 +11,17 @@ body{
     font-family: 'Quicksand', sans-serif;
     }
 /*----------- HEADER --------------*/
+header img{
+    float:left;  
+}
 div.title{
-    float:right;
-    margin: 5 10 10 10;
     font-family: 'Cabin', sans-serif;
 }
 /*----------- NAVIGATION --------------*/
 nav{
     background-color: #724200;
     width: 100%;
+    clear: both;
 }
 nav ul{
     list-style-type: none;
@@ -37,26 +39,29 @@ nav ul li.active a {
 }
 /*----------- MAIN --------------*/
 main{
-   
-    margin: auto;
+   margin: auto;
+   padding: 5%;
 }
-figure img{
-    width: 100%;
-    margin: 0;
+main figure{
     padding: 0;
+    margin: 0;
+    max-width: 90%;
 }
-main figcaption{
-    font: 2px;
+figcaption a{
+    font-size: .8rem;
+}
+main p{
+    text-align: justify;
 }
 /*----------- FOOTER --------------*/
 footer{
     background-color: #724200;
 }
 footer section{
-    padding: 10%;
+    padding: 5%;
 }
 footer p{
-    padding: 10%;
+    padding: 5%;
 }
 
 
