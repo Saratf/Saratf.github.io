@@ -6,7 +6,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 /*----------- BODY --------------*/
-
+body{
+    background-color: #E5B990;
+    margin:auto;
+    width: 90%;
+    }
 
 
 
