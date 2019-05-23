@@ -6,111 +6,24 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 /*----------- BODY --------------*/
-body {
-    font-size: 12px;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #E5B990;
-    margin-left: 10px;
-}
+
 
 
 
 /*----------- HEADER --------------*/
-header {
-    padding: .5rem 2%;
 
-}
-header img {float: left;
-            
-            width: 100%;
-           }
-header h1 {
-           
-           font-size: 1.3rem;
-           font-family: 'Cabin', sans-serif;
-          }
-header h2 {
-            
-           font-weight: normal; 
-           font-size: 1rem;
-           font-family: 'Cabin', sans-serif;
-          }
 
 /*----------- NAVIGATION --------------*/
 
-nav {
-    background-color: #724200;
-    clear: both;
-    
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 
-nav ul li a {
-    display: block;
-    color: #B6EABF;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
-    text-align: left;
-}
-
-
-nav ul li a:hover {
-    background-color: #724200;
-    color: #333;
-}
-nav ul li.active a {
-    background-color: #000;
-    color: #B6EABF;
 
 /*----------- MAIN --------------*/
-main {
-    padding: 0 2%;
-    min-height: 10rem;
-}
 
-figure img{
-    max-width:90%;
-    margin-bottom: 15px;
-}
-figcaption{
-    font-size: 8px;
-}
 
 
 /*----------- FOOTER --------------*/
-footer {
-    background-color: #724200;
-    padding: .5rem 2%;
-    text-align: center;
-    clear: both;
-}
-
-footer section h3{
-    font-size: 0.8rem;
-    margin-left: 2%;
-    padding: 0px;
-    text-align: left;
-    font-family: 'Cabin', sans-serif;
-}
-footer section p{
-    
-    font-size: 0.8rem;
-    margin-left: 2%;
-    padding: 0px;
-    text-align: left;
-}
 
 
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
