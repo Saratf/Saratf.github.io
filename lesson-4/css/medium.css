@@ -4,10 +4,7 @@
 
 /*----------- BODY --------------*/
 
-figure img{
-    float: right;
-    max-width: 50%;
-}
+
 
 /*----------- HEADER --------------*/
 
@@ -24,8 +21,20 @@ figure img{
 
 /*----------- MAIN --------------*/
 
+figure img{
+    float: right;
+    max-width: 50%;
+}
+figcaption a{
+    float: right;
+}
 
 
 /*----------- FOOTER --------------*/
-    
+footer section{
+    padding: 0;
+}
+footer p{
+    padding: 0;
+}
 } /* end of media query */
