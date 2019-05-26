@@ -21,20 +21,19 @@
 
 /*----------- MAIN --------------*/
 
-figure img{
+
+main figure{
     float: right;
     max-width: 50%;
+    margin: 3%;
 }
-figcaption a{
-    float: right;
-}
+
+
 
 
 /*----------- FOOTER --------------*/
-footer section{
-    padding: 0;
+footer{
+    clear: both;  
 }
-footer p{
-    padding: 0;
-}
+
 } /* end of media query */
