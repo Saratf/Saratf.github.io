@@ -1,10 +1,7 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 
-    header, main {
-        max-width: 64rem;
-        margin:auto;
-    }
+    
 
 /*----------- BODY --------------*/
 
@@ -20,14 +17,7 @@
 
 /*----------- MAIN --------------*/
 
-main figure{
-    
-    max-width: 50%;
-    margin-left: 2%;
-}
-main p{
-    padding-top: 3%;
-}
+
 
 /*----------- FOOTER --------------*/
 

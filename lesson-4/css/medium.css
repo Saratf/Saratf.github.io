@@ -3,37 +3,38 @@
 
 
 /*----------- BODY --------------*/
-
-
-
 /*----------- HEADER --------------*/
-
     header img{ width: auto;}
     header h1{font-size: 2rem;}
     header h2{font-size: 1.5rem;}
-
 /*----------- NAVIGATION --------------*/
     nav ul {margin-left: 2%;}
     nav ul li {float: left;}
 
     nav ul li a{padding: .5rem 1rem;}
-
-
 /*----------- MAIN --------------*/
-
-
 main figure{
     float: right;
     max-width: 50%;
     margin: 3%;
 }
-
-
-
-
 /*----------- FOOTER --------------*/
 footer{
-    clear: both;  
+    clear: both;
+}
+footer section.column:nth-child(1){
+    width: 50%;
+    float:left;
+     
+    
+}
+footer section.column:nth-child(2){
+    width: 50%; 
+    float:left;
+    
+}
+footer{
+    padding: 0; 
 }
 
 } /* end of media query */
