@@ -8,11 +8,7 @@
 
 
 /*----------- HEADER --------------*/
-header img{ width: auto;
-    margin-left: 2.5%;
-}
-/*----------- NAVIGATION --------------*/
-nav ul {margin-left: 3.5%;}
+
 
 
 /*----------- NAVIGATION --------------*/
@@ -20,18 +16,8 @@ nav ul {margin-left: 3.5%;}
 
 
 /*----------- MAIN --------------*/
-    
-main figure{
-    margin: 0;
-}
-main figcaption{
-    padding: 4% 0;
-}
-main p{
-    max-width: 50%;
-    padding-right: 5%;
-    
-}
+
+
 
 /*----------- FOOTER --------------*/
 

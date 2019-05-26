@@ -57,12 +57,14 @@ figcaption a{
 main p{
     text-align: justify;
 }
-main p a{
-    font-size: .8rem;
-}
 /*----------- FOOTER --------------*/
 footer{
     background-color: #724200;
+}
+footer section{
+    padding: 5%;
+}
+footer p{
     padding: 5%;
 }
 
