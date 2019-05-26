@@ -57,6 +57,29 @@ figcaption a{
 main p{
     text-align: justify;
 }
+.BigContainer{
+    max-width: 100%;
+    width: auto;
+    position: relative;
+
+}
+.ImgContainer{
+    max-width: 100%;
+    width: auto;  
+}
+.WeatherInfoBox{
+    background-color:#ffffff80;
+    font-size: 0.7rem;
+    max-width: 80%;
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+.WeatherTable{
+    display: none;
+}
 /*----------- FOOTER --------------*/
 footer{
     background-color: #724200;

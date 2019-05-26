@@ -18,12 +18,9 @@
 /*----------- MAIN --------------*/
 
 .WeatherInfoBox{
-    background-color:#ffffff80;
     max-width: 20%;
     padding: 10px;
-    position: absolute;
-    top: 40px;
-    left: 180px;
+    
 
 }
 
