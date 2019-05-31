@@ -84,12 +84,15 @@ main p{
 footer{
     background-color: #724200;
 }
-footer section{
-    padding: 5%;
+footer section.column{
+    padding: 2% 5%;
+    margin: 0;
 }
 footer p{
-    padding: 5%;
+    padding: 2% 5%;
+    margin: 0;
 }
+
 
 
 
