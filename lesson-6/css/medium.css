@@ -12,6 +12,14 @@
     nav ul li {float: left;}
 
     nav ul li a{padding: .5rem 1rem;}
+   
+    .navigation li{ display: block;}
+    .navigation li:first-child { display: none;	}
+    /*@media only screen and (min-width: 32.5em) {
+  .navigation li:first-child { display: none;	}
+	.navigation li { display: inline-block; margin-right: 1rem;}	
+	.navigation li a { color: yellow;}
+}*/
 /*----------- MAIN --------------*/
 main figure{
     float: right;
@@ -22,6 +30,8 @@ main figure{
     max-width: 50%;
     padding: 10px;
     font-size: 1rem;
+    margin: 5%;
+ 
     
 
 }
