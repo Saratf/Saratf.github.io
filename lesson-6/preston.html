@@ -8,6 +8,8 @@
     <title>
         Preston
     </title>
+    
+    <script src="js/hamburguer.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
@@ -38,9 +40,17 @@
     </nav>
     <main>
             <div class="BigContainer">
-                    <div class="ImgContainer">
-                        <img src="images/hero_sky.jpg" alt="photo of sky with clouds">
-                    </div>
+                    <figure class="ImgContainer">
+                        <picture>
+                            <source media="(min-width: 650px)" srcset="images/Franklin_large.jpg">
+                                <source media="(min-width: 465px)" srcset="images/Franklin_small.jpg">
+                                <img src="images/Franklin_large.jpg" alt="photo of a sunny place"  style="width:auto;">
+                        </picture>
+                    </figure>
+                        
+
+                   
+
                     <section class="WeatherInfoBox">
                         <h3>Weather for Preston ID</h3>
                         <p>feels like: 48 &#176;</p>
@@ -108,7 +118,7 @@
         <p><a href="https://en.wikipedia.org/wiki/Preston,_Idaho">https://en.wikipedia.org/wiki/Preston,_Idaho</a></p>
         
     </main>
-    <footer>
+    <footer id="FooterDate">
         <address>
         <section class="column">
             Address</br>
@@ -124,6 +134,7 @@
         <p>&copy; Sara Figueiredo May 22 2019</p>
         
     </footer>
+    <script src="js/currentdate.js"></script>
 </body>
 
 </html>
