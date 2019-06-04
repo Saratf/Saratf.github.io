@@ -7,8 +7,8 @@ var dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 
 var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-//declares a variable that is going to receive all the functions necessary for the information I need with array positions
-var d = (dayOfWeek[myDate.getDay()] + "," + " " + myDate.getDate() + " " + monthName[myDate.getMonth()] + " " + myDate.getFullYear());;
+//declares a variable that is going to receive all the functions necessary for the information I need with array positions//
+var d = (dayOfWeek[myDate.getDay()] + "," + " " + myDate.getDate() + " " + monthName[myDate.getMonth()] + " " + myDate.getFullYear());
 
 
 
