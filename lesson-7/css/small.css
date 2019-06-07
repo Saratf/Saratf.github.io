@@ -1,0 +1,121 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body{
+    background-color: #E5B990;
+    font-family: 'Quicksand', sans-serif;
+    } 
+/*----------- HEADER --------------*/
+header img{
+    margin: auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 180px auto;
+}
+/*----------- NAVIGATION --------------*/
+nav{
+    background-color: #724200;
+    width: 100%;
+    clear: both;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 5%;
+    color: #E5B990;
+}
+nav ul li.active a {
+    background-color: #748AD3;
+}
+.navigation li:first-child { display: block;}
+.navigation li{ display: none;}
+.responsive li { display: block; }
+
+
+/*----------- MAIN --------------*/
+main{
+   margin: auto;
+   margin: 5%;
+}
+main figure{
+    padding: 0;
+    margin: 0;
+}
+main img{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+figcaption a{
+    font-size: .8rem;
+}
+main p{
+    text-align: justify;
+}
+.BigContainer{
+    max-width: 100%;
+    width: auto;
+    position: relative;
+}
+.ImgContainer{
+    max-width: 100%;
+    width: auto;  
+}
+.WeatherInfoBox{
+    background-color:#ffffff80;
+    font-size: 0.7rem;
+    padding: 5%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.PhotosLink{
+    float: right;
+}
+
+a.otherlinks:link{
+    color: #724200;
+}
+a.otherlinks:visited{
+    color: #b6babf;
+}
+a.otherlinks:hover{
+    color: #748ad3;
+}
+
+.WeatherTable{
+    display: none;
+}
+/*----------- FOOTER --------------*/
+footer{
+    background-color: #724200;
+}
+footer section.column{
+    padding: 0 5%;
+    margin: 0;
+}
+footer p{
+    padding: 1.5% 5%;
+    margin: 0;
+}
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
