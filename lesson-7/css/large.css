@@ -23,6 +23,10 @@
     
 
 }
+div.imageGallery figure{
+    flex-basis: 29%;
+}
+.borderRadius:hover {box-shadow: 0 0 50px #333;}
 
 
 /*----------- FOOTER --------------*/

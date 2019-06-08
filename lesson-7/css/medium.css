@@ -15,11 +15,9 @@
    
     .navigation li{ display: block;}
     .navigation li:first-child { display: none;	}
-    /*@media only screen and (min-width: 32.5em) {
-  .navigation li:first-child { display: none;	}
-	.navigation li { display: inline-block; margin-right: 1rem;}	
-	.navigation li a { color: yellow;}
-}*/
+    
+
+
 /*----------- MAIN --------------*/
 main figure{
     float: right;
@@ -43,6 +41,14 @@ td, th{
     text-align: center;
     padding: 3px;
     border-collapse: collapse;
+}
+div.imageGallery figure{
+   margin: 0;
+   padding: 10%;
+   
+}
+div.imageGallery figure{
+    flex-basis: 46%;
 }
 /*----------- FOOTER --------------*/
 footer{

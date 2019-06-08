@@ -72,10 +72,10 @@ main p{
     max-width: 100%;
     width: auto;  
 }
-.WeatherInfoBox{
+section.WeatherInfoBox{
     background-color:#ffffff80;
     font-size: 0.7rem;
-    padding: 5%;
+    padding: 1%;
     position: absolute;
     top: 5%;
     left: 5%;
@@ -83,7 +83,6 @@ main p{
 .PhotosLink{
     float: right;
 }
-
 a.otherlinks:link{
     color: #724200;
 }
@@ -93,9 +92,19 @@ a.otherlinks:visited{
 a.otherlinks:hover{
     color: #748ad3;
 }
-
 .WeatherTable{
     display: none;
+}
+div.imageGallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.imageGallery figure{
+    flex-basis: 96%;
+    margin: 1rem 2%;
+}
+div.imageGallery figure img{
+    width: 100%;
 }
 /*----------- FOOTER --------------*/
 footer{
